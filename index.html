@@ -10,25 +10,32 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,400i" rel="stylesheet">
 </head>
 <body>
+  <ul class="skip-links">
+    <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#about">Jump to about content</a></li>
+    <li><a href="#shrubs">Jump to shrubs content</a></li>
+    <li><a href="#prices">Jump to prices content</a></li>
+    <li><a href="#news">Jump to news content</a></li>
+    <li><a href="#contact">Jump to contact content</a></li>
+  </ul>
 
-  <div class="masthead">
-    <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
-      <h1 class="push-0">Shrubbery, etc.</h1>
-    </div>
-    <div class="nav">
-      <div class="wrapper gutter-1-2">
-        <ol class="mega list-group-inline push-0">
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">About</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Shrubs</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Prices</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">News</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Contact</a></li>
-      </div>
-    </div>
-  </div>
+  <header class="masthead" role="banner">
+    <h1 class="push-0">Shrubbery, etc.</h1>
+    <nav class="wrapper" role="navigation" tabindex="0" id="nav">
+      <ul class="mega list-group-inline push-0">
+        <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#about">About</a></li>
+        <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#shrubs">Shrubs</a></li>
+        <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#prices">Prices</a></li>
+        <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#news">News</a></li>
+        <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <div>
-    <div class="about push" id="about">
+
+  <main>
+    <section class="about push" id="about">
       <div class="embed embed-24by10">
         <img class="embed-item" src="images/shrbs.jpg" alt="">
       </div>
@@ -38,7 +45,7 @@
           <p class="mega push-0">Is there anywhere in this town where we could buy a shrubbery!?</p>
           <p class="mega push-0 max-length not-centered">Yes, shrubberies are my trade—I am a shrubber. My name is Roger the Shrubber. I arrange, design, and sell shrubberies.</p>
         </div>
-    </div>
+    </section>
 
     <div>
       <div class="wrapper gutter-1-2">
