@@ -10,7 +10,7 @@ html {
   color: #113c00;
 }
 
-.nav {
+nav {
   position: relative;
   background-color: #113c00;
   z-index: 2;
