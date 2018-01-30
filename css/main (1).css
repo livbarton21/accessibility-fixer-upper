@@ -10,18 +10,8 @@ html {
   color: #113c00;
 }
 
-nav {
-  position: relative;
-  background-color: #CEDAF9;
-  z-index: 2;
-}
-
 a {
   color: #568c36;
-}
-
-nav a {
-  color: #fff;
   text-decoration: none;
 }
 
@@ -29,16 +19,26 @@ a:hover {
   color: #113c00;
 }
 
-nav a:hover,
-.nav a:focus {
-  outline: 3px solid #000;
-  background-color: #fff;
-  color: #113c00;
-}
 .masthead {
   background-color: #568c36;
 
   color: #fff;
+}
+
+.nav {
+  position: relative;
+  background-color: #113c00;
+  z-index: 2;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #fff;
+  color: #113c00;
 }
 
 .about {
